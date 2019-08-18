@@ -11,6 +11,7 @@ body{
     max-width: 90%;
     margin-top: 80px;
     background-color: whitesmoke;
+    line-height: 1.5;
 } 
 div{}
 h1{
@@ -34,9 +35,9 @@ footer{
 }
 
 #headshotImg{
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 50%;
-    min-width: 300px;
+    /* min-width: 300px; */
 }
 
 #homePageText{
@@ -70,4 +71,32 @@ footer{
 .bottomPadding20{
     margin-bottom: 20px;
 }
+.bottomPadding40{
+    margin-bottom: 40px;
+}
 
+@media screen and (max-width: 795px){
+    #headshotImg{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 673px){
+    #homePageContent{
+        display: block;
+    }
+    #headshotImg{
+        width: 300px;
+        height: 300px;
+    }
+    #headshotContainer{
+        text-align: center;
+        margin: 40px auto;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        padding: 0;
+    }
+}
