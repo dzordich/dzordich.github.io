@@ -19,6 +19,14 @@ h1{
 h2{
     margin-bottom: 20px;
 }
+footer{
+    margin: 0 15%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: .5;
+    font-size: .8em;
+}
 #homePageContent{
     display: flex;
     justify-content: space-evenly;
