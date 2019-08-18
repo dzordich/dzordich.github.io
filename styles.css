@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 950px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-top: 80px;
+    background-color: whitesmoke;
+} 
+div{}
+h1{
+    margin: 20px;
+}
+h2{
+    margin-bottom: 20px;
+}
+#homePageContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#headshotImg{
+    max-width: 100%;
+    border-radius: 50%;
+    min-width: 300px;
+}
+
+#homePageText{
+    /* width: 50%; */
+}
+#headshotContainer{
+    padding-right: 30px;
+    margin: 0 40px;
+    padding-top: 40px;
+}
+#logo{
+    color: #FFAA4A;
+}
+#meAndyGreg{
+    /* transform: rotate(90deg); */
+    margin: 0 auto;
+    width: 43.17%;
+}
+.pageTitle{
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 4em;
+    font-style:italic;
+    font-weight: bold;
+}
+.carouselImage{
+    background: linear-gradient(#ffffff, #000000);
+}
+.linkColor:visited{
+    color: #FFAA4A;
+}
+.bottomPadding20{
+    margin-bottom: 20px;
+}
+
