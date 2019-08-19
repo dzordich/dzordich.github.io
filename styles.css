@@ -28,6 +28,9 @@ footer{
     opacity: .5;
     font-size: .8em;
 }
+iframe{
+    max-width: 100%;
+}
 #homePageContent{
     display: flex;
     justify-content: space-evenly;
