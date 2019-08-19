@@ -83,6 +83,9 @@ iframe{
 #linkedin{
     margin-top: 2.4px;
 }
+.footerDiv{
+    width: 100px;
+}
 @media screen and (max-width: 795px){
     #headshotImg{
         width: 200px;
