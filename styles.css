@@ -31,6 +31,12 @@ footer{
 iframe{
     max-width: 100%;
 }
+.aboutLinks{
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8em;
+}
 #homePageContent{
     display: flex;
     justify-content: space-evenly;
