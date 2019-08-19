@@ -68,6 +68,9 @@ footer{
 .linkColor:visited{
     color: #FFAA4A;
 }
+.linkColor{
+    color: #FFAA4A;
+}
 .bottomPadding20{
     margin-bottom: 20px;
 }
