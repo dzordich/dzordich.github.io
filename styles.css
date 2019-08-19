@@ -80,7 +80,9 @@ iframe{
 .bottomPadding40{
     margin-bottom: 40px;
 }
-
+#linkedin{
+    margin-top: 2.4px;
+}
 @media screen and (max-width: 795px){
     #headshotImg{
         width: 200px;
